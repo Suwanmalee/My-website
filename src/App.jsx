@@ -18,7 +18,7 @@ export default function App() {
         <Sidebar />
 
         {/* Main Content */}
-        <main className="flex-1 p-6 bg-white">
+        <main className="flex-1 p-6 bg-white text-gray-900">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/week1" element={<Week1 />} />
